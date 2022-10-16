@@ -1,0 +1,53 @@
+
+
+DOS
+C:\Users\skytm\OneDrive\바탕 화면\프론트엔드\221016_2강_터미널과_디렉토리
+
+리눅스
+cd C:/Users/skytm/OneDrive/바탕 화면/프론트엔드/221016_2강_터미널과_디렉토리
+1. 프로젝트 위치로 이동
+
+숨김목록까지 확인
+ls -la
+
+2. 깃설정
+git init
+
+3. 환경설정
+git config user.name 'degull'
+git config user.email 'skytmdgus591@naver.com'
+
+4.환경설정 확인
+git config user.name 
+git config user.email 
+
+5. 원격지(remote) reporsitory의 주소(url) 
+git remote add origin https://github.com/degull/front_end.git
+
+6. 원격지(remote) reporsitory의 주소(url)  확인
+git remote -v
+
+origin  https://github.com/degull/front_end.git (fetch)
+origin  https://github.com/degull/front_end.git (push)
+
+7. 깃허브에 올릴(푸시) 데이터를 스테이징 처리 <스테이징>
+git add .
+
+8. 커밋
+git commit -m '깃허브에 데이터 푸시하기'
+
+9. 푸시하기
+git push origin master
+
+10. 배포(페이징)
+Setting -> 클릭
+pages -> 좌측 메뉴 클릭
+
+GitHub Pages
+Branch
+(mater)설정
+save
+새로고침 후 url 확인
+
+https://degull.github.io/front_end/
+
